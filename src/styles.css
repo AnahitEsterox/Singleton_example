@@ -1,0 +1,34 @@
+.contents {
+    border: 1px solid #212d0b;
+    padding: 15px;
+    border-radius: 5px;
+    width: 50%;
+    margin: 0 auto;
+}
+.global-state {
+    margin-bottom: 30px;
+}
+.marketing,
+.ceo {
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+}
+input {
+    width: 30%;
+}
+span {
+    color: #212d0b;
+    border-bottom: 1px solid;
+    width: fit-content;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.global-state .global-store-data {
+    color: red;
+}
